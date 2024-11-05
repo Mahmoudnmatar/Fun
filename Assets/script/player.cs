@@ -26,7 +26,7 @@ public class player
 
         health += amount;
 
-        Debug.Log("health " + health);
+        Debug.Log(playerName + "amount" + amount +"health " + health);
 
     }
 
@@ -34,6 +34,7 @@ public class player
     {
 
         health = 100;
+        Debug.Log(playerName +"health " + health);
 
     }
 
