@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : Character
 {
-    public Enemy(string name, int health) 
+    public Enemy(string name, int health) :base ( name , health) 
     {
     }
 
